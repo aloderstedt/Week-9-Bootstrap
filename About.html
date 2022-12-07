@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Contact</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
 </head>
+
 <body class="bg-dark">
     <div class="container">
 
@@ -23,7 +25,7 @@
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="About.html">About</a>
+                            <a class="nav-link active" aria-current="page" href="about.html">About</a>
                         </li>
                     </ul>
                 </div>
@@ -32,64 +34,63 @@
 
     </div>
 
-
-<div class="container">
-<img class="rounded img-fluid float-left" src="Images/Mike.JPG" alt="Michael Fairfield">
+<div class="row">
+    <div class="container">
+        <div class="card bg-danger col-sm-6" style="width: 20rem;">
+            <img class="card-img-top" src="Images/Mike.JPG" alt="Michael Fairfield">
+                <div class="card-body">
+                    <h2 class="card-title">Michael Fairfield (Vox, beer, liquor)</h5>
+                    <p class="card-text text-light">The Vocal Vindicator, The Harbinger of Harmony, The Melodic Menace. None of these are actually Mike's nickname.</p>
+                </div>
+        </div>
+        <div class="card bg-primary col-sm-6 float-right" style="width: 20rem;">
+            <img class="card-img-top" src="Images/Kade.JPG" alt="Kade Rushing">
+                <div class="card-body">
+                    <h2 class="card-title">Kade Rushing (Keytar)</h5>
+                    <p class="card-text text-light">He once wrestled a bear blindfolded. Like, the bear was blindfolded. 
+                And to be fair it was a really small bear.</p>
+            </div>
+        </div>
+    </div>
 </div>
 
-<div class="container">
-    <blockquote class="blockquote text-left">
-<h2>Michael Fairfield (vocals, beer, liquor)</h2>
-<p class="text-light">The Vocal Vindicator, The Harbinger of Harmony, </p>
-    <p class="text-light">The Melodic Menace. </p>
-   <p class="text-light"> None of these are actually Mike's nickname.</p>
-</blockquote>
+<div class="row">
+    <div class="container">
+        <div class="card bg-warning col-sm-6" style="width: 20rem;">
+            <img class="card-img-top" src="Images/Jaime.JPG" alt="Jaime Smith">
+                <div class="card-body">
+                    <h2 class="card-title">Jaime Smith (Pots/Pans)</h5>
+                    <p class="card-text text-light">Not much is known about Jaime aside from the fact that he learned 
+                how to play drums without even having a sense of smell.</p>
+                </div>
+        </div>
+        <div class="card bg-success col-sm-6 float-right" style="width: 20rem;">
+            <img class="card-img-top" src="Images/Me.JPG" alt="Anthony Loderstedt">
+                <div class="card-body">
+                    <h2 class="card-title">Tony Loderstedt (Thundercat)</h5>
+                    <p class="card-text text-light">I just can't even right now.</p>
+            </div>
+        </div>
+    </div>
 </div>
 
-<div class="container">
-    <img class="img-fluid rounded float-right" src="Images/Kade.JPG" alt="Kade Rushing">
-</div> 
+<h1 class="text-light text-center">Contact Us</h1>
 
-<div class="container">
-    <blockquote class="blockquote text-right">
-    <h2>Kade Rushing (keytar)</h2>
-    <p class="text-light">Once wrestled a bear blindfolded.</p>
-    <p class="text-light">Like the bear was blindfolded.</p>
-    <p class="text-light">And to be fair it was a really small bear.</p>
-    </blockquote>
-</div>
+<form class="form-inline justify-content-center pb-5">
+    <div class="form-group">
+        <label class="text-light" for="email input">Email Address</label>
+        <input type="email" class="form-control" id="email input" placeholder="name@example.com">
+    </div>
+    <div class="form-group mx-sm-3">
+        <label class="text-light" for="comment/subject box">Your words, yo</label>
+        <textarea class="form-control" id="comment/subject box" rows="1"></textarea>
+    </div>
+    <button type="submit" class="btn btn-dark">Submit</button>
+</form>
 
-<div class="container">
-    <img class="rounded img-fluid float-left" src="Images/Jaime.JPG" alt="Jaime Smith">
-</div>
-
-<div class="container">
-    <blockquote class="blockquote text-left">
-        <h2>Jaime Smith (pots/pans)</h2>
-        <p class="text-light">Not much is known about Jaime</p>
-        <p class="text-light">aside from the fact that he learned</p>
-        <p class="text-light">how to play drums with no sense of smell.</p>
-    </blockquote>
-</div>
-
-<div class="container">
-    <img class="rounded img-fluid float-right" src="Images/Me.JPG" alt="Anthony Loderstedt">
-</div>
-
-<div class="container">
-    <blockquote class="blockquote text-right">
-        <h2>Tony Loderstedt (thundercat)</h2>
-        <p class="text-light">I just</p>
-        <p class="text-light">can't even</p>
-        <p class="text-light">right now.</p>
-    </blockquote>
-</div>
-
-
-
-    
-<script src="node_modules/jquery/dist/jquery.js"></script>
-<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 
 </body>
+
 </html>
